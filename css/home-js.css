@@ -1,0 +1,230 @@
+/* Style Home CSS */
+/* body{
+    color: #222;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+.titulo{
+    background-color: #1877F2 !important;
+    text-transform: uppercase;
+    animation: franco;
+}
+
+
+
+@keyframes franco {
+    from{
+        transform: translateX(-20px);
+    }
+    to{
+        transform: translateX(40px);
+    }
+} */
+
+/* :root{
+    font-family: sans-serif;
+}
+
+
+.container--llaves{
+    display: grid;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px
+}
+
+.llaves-item{
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #aaa;
+    padding: 10px;
+}
+
+.llave-img{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+.llaves-item:focus{
+    box-shadow: 1px 1px 15px -4px #222;
+    outline: none;
+}
+
+.llaves-item:hover{
+    box-shadow: 1px 1px 15px -4px #222;
+}
+
+h3{
+    color: #555;
+}
+
+h2,h3{
+    margin: 3px 0;
+}
+
+p b{
+    color: #591;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form [type="submit"]{
+    color: #fff;
+    background-color: #92f;
+    padding: 15px 50px;
+    margin-bottom: 50px;
+    outline: none;
+    border: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background .5s;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background: #71f;
+}
+
+/* RESPONSIVE DESIGN */
+/* @media screen and (max-width: 840px){
+    .container--llaves{
+        grid-template-columns: repeat(3,1fr);
+    }
+} */
+
+/* @media screen and (max-width: 627px){
+    .container--llaves{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .llave-img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .container--llaves{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.container-text{
+    background: #222;
+    width: 80%;
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.container-text h2,p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+body > div > p{
+    background: #71f;
+}
+
+
+input{
+    outline: none;
+    margin: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+    padding: 10px;
+} */
+
+/* FORMULARIO */
+
+*{
+    font-family: "Poppins";
+}
+
+body{
+    background: linear-gradient(to bottom, #71f, #91f);
+    height: 100vh;
+}
+
+.container-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+form{
+    width: 90%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;;
+    gap: 25px;
+    background: #222;
+    padding: 18px;
+    border-radius: 4px;
+}
+
+input{
+    padding: 12px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f1f1f1;
+    color: #222;
+}
+
+form h2{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button{
+    color: #fff;
+    background: #91f;
+    outline: none;
+    border: none;
+    transition: .5s;
+    padding: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #70f;
+}
+
+.red{
+    color: #f00;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.green{
+    color: #cf1;
+    padding: 10px;
+    text-align: center;
+}
+
